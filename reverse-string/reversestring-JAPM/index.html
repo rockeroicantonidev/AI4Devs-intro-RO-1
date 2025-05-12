@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse String</title>
+    <!-- Estilos básicos para mejor presentación -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .input-group {
+            margin: 15px 0;
+        }
+
+        input {
+            width: 300px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 5px 15px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>String Reverser Tool</h1>
+
+    <div class="input-group">
+        <input type="text" id="inputText" placeholder="Ingresa tu texto aquí...">
+        <button id="reverseBtn" disabled>Reverse</button>
+    </div>
+
+    <div class="result-group">
+        <label>Resultado: </label>
+        <span id="result"></span>
+        <button id="copyBtn">Copy</button>
+    </div>
+
+    <!-- Script externo -->
+    <script src="app.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
